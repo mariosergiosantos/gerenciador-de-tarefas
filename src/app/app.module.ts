@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { AppRoutingModule } from './app-routing.modele';
+import { AppRoutingModule } from './app-routing.module';
 import { TarefasModule } from './tarefas';
 
 @NgModule({
