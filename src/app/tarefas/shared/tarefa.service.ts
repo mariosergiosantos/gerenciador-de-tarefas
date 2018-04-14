@@ -43,7 +43,7 @@ export class TarefaService {
     const tarefas: Tarefa[] = this.listarTodos();
     tarefas.forEach((obj, index, objs) => {
       if (id === obj.id){
-        objs[index].concluida = obj.concluida;
+        objs[index].concluida = !obj.concluida;
       }
     });
     localStorage['tarefas'] = JSON.stringify(tarefas);
